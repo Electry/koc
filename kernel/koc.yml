@@ -1,0 +1,27 @@
+koc:
+  attributes: 0
+  version:
+    major: 0
+    minor: 1
+  main:
+    start: module_start
+    stop: module_stop
+  modules:
+    kocLibrary:
+      syscall: true
+      functions:
+        - kocEnable
+        - kocDisable
+        - kocIsEnabled
+        - kocGetArmClockFrequency
+        - kocGetBusClockFrequency
+        - kocGetGpuClockFrequency
+        - kocGetGpuEs4ClockFrequency
+        - kocGetGpuXbarClockFrequency
+        - kocSetArmClockFrequency
+        - kocSetBusClockFrequency
+        - kocSetGpuClockFrequency
+        - kocSetGpuEs4ClockFrequency
+        - kocSetGpuXbarClockFrequency
+        - kocGetArmMul
+        - kocGetArmDiv
